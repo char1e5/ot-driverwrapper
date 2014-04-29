@@ -3,7 +3,7 @@ var driver = require('../../lib/driverwrapper'),
     browser;
 
 var PageObject = function (context) {
-    browser = driver.getBrowser('firefox');
+    browser = driver.getBrowser('chrome');
     this.browser = browser;
 }
 
