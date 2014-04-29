@@ -1,0 +1,36 @@
+{
+    "name": "driver-wrapper",
+    "description": "Webdriver E2E test wrapper for NodeJS.",
+    "homepage": "https://github.com/char1e5/driver-wrapper",
+    "keywords": [
+        "nodejs",
+        "test",
+        "testing",
+        "webdriver",
+        "webdriverjs",
+        "selenium"
+    ],
+    "author": "Charles Chu <cchu@opentable.com>",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:char1e5/driver-wrapper.git"
+    },
+    "main": "lib/driverwrapper.js",
+    "scripts": {
+        "test": "mocha -R spec spec/**/spec*.js;"
+    },
+    "dependencies": {
+        "selenium-webdriver": "~2.41.0",
+        "path": "^0.4.9"
+    },
+    "devDependencies": {
+        "chai": "~1.9.0",
+        "mocha": "~1.10.0"
+    },
+    "license": "MIT",
+    "version": "0.0.6",
+    "webdriverVersions": {
+        "selenium": "2.41.0",
+        "chromedriver": "2.9"
+    }
+}
