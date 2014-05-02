@@ -1,1 +1,4 @@
 spec/screenshots
+.idea
+node_modules
+*.log
