@@ -28,7 +28,7 @@
         "mocha": "~1.10.0"
     },
     "license": "MIT",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "webdriverVersions": {
         "selenium": "2.41.0",
         "chromedriver": "2.9"
