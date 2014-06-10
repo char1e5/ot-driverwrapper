@@ -20,13 +20,9 @@ var ExamplePage = function (context) {
 
     ExamplePage.prototype.locationSearch = function () {
         this.visit('http://m.opentable.com/#/location');
-        this.saveScreenshot('./spec/screenshots/out1.png');
         this.locationInput().click();
-        this.saveScreenshot('./spec/screenshots/out2.png');
         this.locationInput().sendKeys('San Francisco, CA, United States');
-        this.saveScreenshot('./spec/screenshots/out3.png');
         this.searchButton().click();
-        this.saveScreenshot('./spec/screenshots/out4.png');
     };
 };
 
