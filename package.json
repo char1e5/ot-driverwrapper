@@ -20,7 +20,7 @@
         "test": "mocha -R spec spec/**/spec*.js;"
     },
     "dependencies": {
-        "ot-webdriverjs": "~2.41.0",
+        "ot-webdriverjs": "~2.42.1",
         "path": "^0.4.9"
     },
     "devDependencies": {
